@@ -1,24 +1,24 @@
-��Ŀ¼������LS-CPU_EXB-002ʵ��������ס�cpu�������ϵ�ṹʵ��ָ���ֲᡷ��Ӧ�Ĳο����Դ�롣
+本目录给出了LS-CPU_EXB-002实验箱的配套《cpu设计与体系结构实验指导手册》对应的参考设计源码。
 
-����7��ʵ���һ���γ���ƣ�
----|---1_adder/           ��ʵ��һ  ���������㣺����ӷ�  ���Ĳο����Դ��
+共有7个实验和一个课程设计：
+---|---1_adder/           《实验一  ：数据运算：定点加法  》的参考设计源码
    |
-   |---2_multiply/        ��ʵ���  ���������㣺����˷�  ���Ĳο����Դ��
+   |---2_multiply/        《实验二  ：数据运算：定点乘法  》的参考设计源码
    |
-   |---3_regfile/         ��ʵ����  ���Ĵ�����ʵ��        ���Ĳο����Դ��
+   |---3_regfile/         《实验三  ：寄存器堆实现        》的参考设计源码
    |
-   |---4_alu/             ��ʵ����  ��ALUģ��ʵ��         ���Ĳο����Դ��
+   |---4_alu/             《实验四  ：ALU模块实现         》的参考设计源码
    |
-   |---5_memory/          ��ʵ����  ���洢��ʵ��          ���Ĳο����Դ��
+   |---5_memory/          《实验五  ：存储器实现          》的参考设计源码
    |
-   |---6_single_cycle_cpu/��ʵ����  ��������CPUʵ��       ���Ĳο����Դ��
+   |---6_single_cycle_cpu/《实验六  ：单周期CPU实现       》的参考设计源码
    |
-   |---7_multi_cycle_cpu/ ��ʵ����  ��������CPUʵ��       ���Ĳο����Դ��
+   |---7_multi_cycle_cpu/ 《实验七  ：多周期CPU实现       》的参考设计源码
    |
-   |---8_pipeline_cpu/    ���γ���ƣ���̬5����ˮ��CPUʵ�֡��Ĳο����Դ��
+   |---8_pipeline_cpu/    《课程设计：静态5级流水线CPU实现》的参考设计源码
    |
-   |---lcd_module.dcp     ����LCD�������������ļ���wrapperģ��
+   |---lcd_module.dcp     调用LCD触摸屏的网表文件和wrapper模块
    |
-   |---multi_cycle_inst/  ������CPUָ��ROM��ʼ���ļ��ͳ��������    
+   |---multi_cycle_inst/  多周期CPU指令ROM初始化文件和程序解析表    
    |
-   |---pipeline_inst/     5����ˮ��CPUָ��ROM��ʼ���ļ��ͳ��������    
+   |---pipeline_inst/     5级流水线CPU指令ROM初始化文件和程序解析表    
